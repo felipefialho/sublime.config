@@ -1,0 +1,17 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"CoffeeScript",
+		"ColorPicker",
+		"Emmet",
+		"Google Translate",
+		"Jade",
+		"jQuery",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeGit"
+	]
+}
