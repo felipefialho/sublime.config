@@ -25,7 +25,6 @@ These are the configs I'm using:
 ```
 "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 "detect_indentation": true,
-"dictionary": "Packages/Languages/hyph_pt_BR.dic",
 "fallback_encoding": "UTF-8",
 "font_size": 11.0,
 "highlight_modified_tabs": true,
