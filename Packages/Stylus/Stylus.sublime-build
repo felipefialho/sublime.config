@@ -1,0 +1,32 @@
+{
+  "cmd": ["stylus", "-u", "nib", "$file"],
+  "file_regex": ".",
+  "selector": "source.stylus",
+
+  "osx":
+  {
+    "path": "/usr/local/bin:/usr/local/share/npm/bin:$PATH"
+  },
+
+  "linux":
+  {
+    "path": "/usr/local/bin:/usr/local/share/npm/bin:$PATH"
+  },
+
+  "windows":
+  {
+    "cmd": ["stylus.cmd", "-u", "nib", "$file"]
+  },
+
+  "variants": [
+    {
+      "name": "compress",
+      "cmd": ["stylus", "-u", "nib", "-c", "$file"],
+
+      "windows":
+      {
+        "cmd": ["stylus.cmd", "-u", "nib", "-c", "$file"]
+      }
+    }
+  ]
+}

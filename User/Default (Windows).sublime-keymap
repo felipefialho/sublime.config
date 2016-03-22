@@ -1,4 +1,0 @@
-[
-	{ "keys": ["f12"], "command": "reindent"},
-  { "keys": ["ctrl+down+right"], "command": "comm_html"}
-]

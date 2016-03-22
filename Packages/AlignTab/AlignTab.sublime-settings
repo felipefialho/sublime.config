@@ -1,0 +1,9 @@
+{
+  "named_patterns": {
+    "first_equal": "=/f",
+    "first_comma": ",/f",
+    "first_colon": ":/f"
+  },
+  // disable auto_match in the input panel
+  "auto_match_enabled": false
+}

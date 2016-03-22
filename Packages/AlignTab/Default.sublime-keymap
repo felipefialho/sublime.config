@@ -1,0 +1,33 @@
+[
+
+	{
+		"keys": ["up"], "command": "align_tab_history",
+		"args": {
+			"backwards": true
+		},
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.aligntab" }
+		]
+	},
+
+	{
+		"keys": ["down"], "command": "align_tab_history",
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.aligntab" }
+		]
+
+	},
+
+    {
+        "keys": ["escape"], "command": "align_tab_clear_mode",
+        "context":
+        [
+            { "key": "align_tab_mode", "operator": "equal", "operand": "true" }
+        ]
+
+    }
+
+
+]

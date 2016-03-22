@@ -1,0 +1,27 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Translate"
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AlignTab",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Emmet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"Jade Snippets",
+		"jQuery",
+		"jQuery Snippets pack",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Package Control",
+		"Stylus",
+		"Stylus-Snippets"
+	]
+}
