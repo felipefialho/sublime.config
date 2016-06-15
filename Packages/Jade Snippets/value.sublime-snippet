@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-value="$1"
-]]></content>
-	<tabTrigger>val</tabTrigger>
-	<scope>source.jade</scope>
-	<description>value=""</description>
-</snippet>

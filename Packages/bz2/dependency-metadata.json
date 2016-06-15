@@ -1,1 +1,1 @@
-{"url": "https://github.com/codexns/sublime-bz2/issues", "platforms": ["*"], "version": "1.0.0", "sublime_text": "*", "description": "Python bz2 module"}
+{"description": "Python bz2 module", "version": "1.0.0", "platforms": ["*"], "sublime_text": "*", "url": "https://github.com/codexns/sublime-bz2/issues"}

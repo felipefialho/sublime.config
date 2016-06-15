@@ -1,5 +1,0 @@
-[
-	{ "keys": ["f12"], "command": "reindent"},
-  { "keys": ["ctrl+down+right"], "command": "comm_html"},
-  { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } }
-]

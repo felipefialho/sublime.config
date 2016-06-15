@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-role="$1"
-]]></content>
-	<tabTrigger>rol</tabTrigger>
-	<scope>source.jade</scope>
-	<description>role</description>
-</snippet>

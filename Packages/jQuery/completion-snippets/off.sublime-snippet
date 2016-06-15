@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[off();]]></content>
-	<tabTrigger>off</tabTrigger>
-	<description>.off()</description>
-	<scope>source.js</scope>
-</snippet>

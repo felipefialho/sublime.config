@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-href="$1"
-]]></content>
-	<tabTrigger>hre</tabTrigger>
-	<scope>source.jade</scope>
-	<description>href=""</description>
-</snippet>

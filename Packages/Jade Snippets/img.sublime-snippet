@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-img(src="${1:images/}",$2 alt="$3")
-]]></content>
-	<tabTrigger>img</tabTrigger>
-	<scope>source.jade</scope>
-	<description>img()</description>
-</snippet>

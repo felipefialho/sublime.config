@@ -7,7 +7,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Translate",
 		"Vintage"
 	],
 	"tab_size": 2,

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-itemscope 
-]]></content>
-	<tabTrigger>items</tabTrigger>
-	<scope>source.jade</scope>
-	<description>itemscope</description>
-</snippet>

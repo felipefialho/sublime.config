@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-target="$1"
-]]></content>
-	<tabTrigger>tar</tabTrigger>
-	<scope>source.jade</scope>
-	<description>target=""</description>
-</snippet>

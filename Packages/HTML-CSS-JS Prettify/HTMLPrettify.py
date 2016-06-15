@@ -11,6 +11,7 @@ except ImportError:
   pass
 
 PLUGIN_FOLDER = os.path.dirname(os.path.realpath(__file__))
+USER_FOLDER = os.path.join(sublime.packages_path(), 'User')
 RC_FILE = ".jsbeautifyrc"
 SETTINGS_FILE = "HTMLPrettify.sublime-settings"
 KEYMAP_FILE = "Default ($PLATFORM).sublime-keymap"
@@ -83,7 +84,7 @@ class HtmlprettifyCommand(sublime_plugin.TextCommand):
       node_path = PluginUtils.get_node_path()
       script_path = PLUGIN_FOLDER + "/scripts/run.js"
       file_path = self.view.file_name()
-      cmd = [node_path, script_path, temp_file_path, file_path or "?"]
+      cmd = [node_path, script_path, temp_file_path, file_path or "?", USER_FOLDER]
       output = PluginUtils.get_output(cmd)
 
       # Make sure the correct/expected output is retrieved.
@@ -112,7 +113,7 @@ class HtmlprettifyCommand(sublime_plugin.TextCommand):
 
   def get_output_data(self, output):
     index = output.find(OUTPUT_VALID)
-    return output[index + len(OUTPUT_VALID) + 1:-1].decode("utf-8")
+    return output[index + len(OUTPUT_VALID) + 1:].decode("utf-8")
 
   def refold_folded_regions(self, folded_regions_content, entire_file_contents):
     self.view.unfold(sublime.Region(0, len(entire_file_contents)))
