@@ -1,6 +1,6 @@
-# Sublime Text 2  
+# Sublime Text 3  
 
-This is my Sublime Text 2 packages and settings.
+This is my [Sublime Text 3](https://www.sublimetext.com/) packages and settings.
 
 ## Packages
 
@@ -15,7 +15,7 @@ These are the packages I'm using:
 - [HTML-CSS-JS-Prettify](https://github.com/victorporof/Sublime-HTMLPrettify)
 - [Jade](https://github.com/davidrios/jade-tmbundle)
 - [jQuery](https://github.com/SublimeText/jQuery)
-- [Markdown](https://github.com/jonschlinkert/sublime-markdown-extended)
+- [Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended)
 - [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
 - [Stylus](https://github.com/billymoon/Stylus)
 
