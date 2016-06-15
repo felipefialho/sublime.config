@@ -38,3 +38,11 @@ These are the settings I'm using:
   "wrap_width": 160
 }
 ```
+
+And the Key Bindings:
+
+````
+[
+  { "keys": ["ctrl+shift+s"], "command": "save_all" }
+]
+````
