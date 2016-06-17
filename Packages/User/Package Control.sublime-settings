@@ -13,8 +13,11 @@
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
 		"jQuery",
+		"JSX",
 		"Markdown Extended",
+		"Package Control",
 		"SideBarEnhancements",
-		"Stylus"
+		"Stylus",
+		"Terminal"
 	]
 }

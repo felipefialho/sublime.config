@@ -1,0 +1,22 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[ 
+			{
+				"caption": "Console",
+				"id": "side-bar-files-open-with-console",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Users\\Felipe\\Dropbox (Pessoal)\\Aplicativos\\Cmder\\Cmder.exe",
+									"extensions":".*", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			{"caption":"-"}
+		]
+	}
+]

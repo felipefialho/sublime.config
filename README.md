@@ -18,6 +18,7 @@ These are the packages I'm using:
 - [Markdown](https://github.com/jonschlinkert/sublime-markdown-extended)
 - [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
 - [Stylus](https://github.com/billymoon/Stylus)
+- [Terminal](https://packagecontrol.io/packages/Terminal)
 
 
 ## Settings
